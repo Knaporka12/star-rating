@@ -97,7 +97,6 @@ export const ContextProvider = ({children}) => {
 
         if (!rate || rate < starId) {
            decreaseStars(starId)
-           console.log(1);
         }
 
     };
