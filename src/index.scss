@@ -1,0 +1,55 @@
+@mixin flex-center($direction: row, $wrap: wrap) {
+    display: flex;
+    flex-flow: $direction $wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, #root, .App{
+    @include flex-center(column, nowrap);
+}
+
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root, .App{
+    flex-grow: 1;
+    width: 100%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.header{
+    width: 100%;
+    margin-top: 0.5rem;
+    
+    &__h1{
+        font-size: 7rem;
+    }
+}
+
+.main{
+    width: 100%;
+    @include flex-center(column, nowrap);
+    gap: 2rem;
+    flex-grow: 1;
+    margin-top: -100px;
+
+    &__h2{
+        font-size: 3rem;
+    }
+}
