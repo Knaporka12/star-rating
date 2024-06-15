@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}#root,.App,body{align-items:center;display:flex;flex-flow:column nowrap;justify-content:center}body{font-family:Arial,Helvetica,sans-serif;min-height:100vh}#root,.App{flex-grow:1;width:100%}h1,h2{text-align:center}svg{cursor:pointer}.header{margin-top:.5rem;width:100%}.header__h1{font-size:7rem}.main{align-items:center;display:flex;flex-flow:column nowrap;flex-grow:1;gap:2rem;justify-content:center;margin-top:-100px;width:100%}.main__h2{font-size:3rem}
+/*# sourceMappingURL=main.afee4815.css.map*/
