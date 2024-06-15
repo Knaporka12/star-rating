@@ -2,7 +2,7 @@ import React from 'react';
 import DataContext from "./context/DataContext"
 import { useContext } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 
 
